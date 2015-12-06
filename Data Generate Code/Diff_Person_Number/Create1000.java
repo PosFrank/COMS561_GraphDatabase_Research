@@ -100,14 +100,14 @@ public class Create1000 {
 			String query1 = "create (P" + (i + 1) + ":Person {name:'" + firstname + " " + lastname + "',age:" + age
 					+ "})";
 			p1.println(query1);
-			String relation1 = "create (" + gender + ")-[:Has_Gender]->(P" + (i + 1) + ")";
+			String relation1 = "create (" + gender + ":Gender)-[:Has_Gender]->(P" + (i + 1) + ")";
 			p1.println(relation1);
 			
 			
 			String query2 = "create (P" + (i + 1) + ":Person {name:'" + firstname + " " + lastname + "',gender:'"
 					+ gender + "'});";
 			p2.println(query2);
-			String relation2 = "create (A" + age + ")-[:Has_Age]->(P" + (i + 1) + ");";
+			String relation2 = "create (A" + age + ":Age)-[:Has_Age]->(P" + (i + 1) + ");";
 			p2.println(relation2);
 			
 			//age and gender
