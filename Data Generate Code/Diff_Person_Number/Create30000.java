@@ -1,8 +1,8 @@
 import java.io.*;
 
-public class Create {
+public class Create30000 {
     
-    private final PERSON_NUMBER = 30000;
+    private static final PERSON_NUMBER = 30000;
     
 	public static void main(String[] args) throws IOException {
 		FileOutputStream fout = new FileOutputStream(

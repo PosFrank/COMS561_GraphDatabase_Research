@@ -1,8 +1,8 @@
 import java.io.*;
 
-public class Create {
+public class Create1000 {
     
-    private final PERSON_NUMBER = 1000;
+    private static final int PERSON_NUMBER = 1000;
     
 	public static void main(String[] args) throws IOException {
 		FileOutputStream fout = new FileOutputStream(
@@ -89,6 +89,7 @@ public class Create {
 			int age = (int) (99 * Math.random());
 			double genderChoose = Math.random();
 			String gender = (genderChoose > 0.5 ? "Male" : "Female");
+            
 			String query = "create (P" + (i + 1) + ":Person {name:'" + firstname + " " + lastname + "',age:" + age
 					+ ",gender:'" + gender + "'})";
 			p.println(query);
