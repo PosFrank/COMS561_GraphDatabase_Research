@@ -1,6 +1,9 @@
 import java.io.*;
 
 public class Create {
+    
+    private final PERSON_NUMBER = 20000;
+    
 	public static void main(String[] args) throws IOException {
 		FileOutputStream fout = new FileOutputStream(
 				new File("C:\\Users\\as\\origindata.txt"));
@@ -79,7 +82,7 @@ public class Create {
 		p3.println(genderNodes);
 		p4.println(genderNodes);
 		p5.println(genderNodes);
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < PERSON_NUMBER; i++) {
 			
 			String firstname = firstNameSet[i % 10];
 			String lastname = lastNameSet[(int) (100 * Math.random()) % 10];
