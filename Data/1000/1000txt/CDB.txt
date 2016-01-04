@@ -1,0 +1,57 @@
+D0 1.06
+D0 1.00
+
+D1 1.07
+D1 1.05
+
+D2 1.38
+D2 1.40
+
+D3 2.09
+D3 2.09
+
+D4 1.58
+D4 1.56
+
+D5 1.52
+D5 1.48
+
+
+
+1    106 rows 125 ms; 106 rows 131 ms; 106 rows 126 ms; 106 rows 126 ms; 106 rows 131 ms;
+2    200 rows 212 ms; 200 rows 205 ms; 200 rows 218 ms; 200 rows 208 ms; 200 rows 212 ms;
+3    320 rows 305 ms; 320 rows 285 ms; 320 rows 286 ms; 320 rows 286 ms; 320 rows 285 ms;
+4    422 rows 372 ms; 422 rows 349 ms; 422 rows 345 ms; 422 rows 304 ms; 422 rows 255 ms;
+5    524 rows 334 ms; 524 rows 314 ms; 524 rows 310 ms; 524 rows 304 ms; 524 rows 308 ms;
+6    631 rows 383 ms; 631 rows 366 ms; 631 rows 367 ms; 631 rows 362 ms; 631 rows 358 ms;
+7    724 rows 423 ms; 724 rows 400 ms; 724 rows 410 ms; 724 rows 417 ms; 724 rows 410 ms;
+8    825 rows 474 ms; 825 rows 450 ms; 825 rows 455 ms; 825 rows 451 ms; 825 rows 462 ms;
+9    926 rows 523 ms; 926 rows 508 ms; 926 rows 539 ms; 926 rows 510 ms; 926 rows 510 ms;
+10  1000 rows 562 ms;1000 rows 543 ms;1000 rows 539 ms;1000 rows 541 ms;1000 rows 539 ms;
+1    490 rows 296 ms; 490 rows 296 ms; 490 rows 295 ms; 490 rows 294 ms; 490 rows 287 ms;
+2   1000 rows 570 ms;1000 rows 559 ms;1000 rows 579 ms;1000 rows 555 ms;1000 rows 550 ms;
+1     0 row 5 ms;
+2    
+3    
+4    
+5    
+6    
+7    
+8    
+9    
+10   
+1    
+2    
+3    
+4    
+5    
+6    
+7    
+8    
+9    
+10   
+11   
+12   
+13   
+14   
+15   
